@@ -19,6 +19,7 @@ const items = [
     getItem('Dashboard', 'dashboard', <DashboardOutlined />,),
     getItem('组件资源', 'componentss', <AppstoreOutlined />, [
         getItem('http', 'http'),
+        getItem('zustand', 'zustand'),
         getItem('Option 6', '6'),
         getItem('网络', 'sub3', null, [getItem('Option 7', '7'), getItem('Option 8', '8')]),
     ]),
